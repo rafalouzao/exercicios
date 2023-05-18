@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex6 </title>
+    
+    <script>
+
+var numero1 = prompt("Informe o valor do primeiro numero: ");
+
+var numero2 = prompt("Informe o valor do segundo numero: ");
+
+var numero3 = prompt("Informe o valor do terceiro numero: ");
+
+var numero4 = prompt("Informe o valor do quarto numero: ");
+
+numero1 = Number(numero1);
+numero2 = Number(numero2);
+numero3 = Number(numero3);
+numero4 = Number(numero4);
+
+
+var numeroMaior;
+
+if (numero1 > numero2 && numero1 > numero3 && numero1 > numero4 ) {
+  numeroMaior = numero1;
+}
+
+else if (numero2 > numero1 && numero2 > numero3 && numero2 > numero4) {
+  numeroMaior = numero2;
+}
+
+else if (numero3 > numero1 && numero3 > numero2 && numero3 > numero4) {
+  numeroMaior = numero3;
+}
+
+else {
+  numeroMaior = numero4;
+}
+
+alert("O maior numero é: " + numeroMaior);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
